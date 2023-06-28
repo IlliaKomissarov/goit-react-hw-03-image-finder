@@ -1,0 +1,22 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 19, 19, 0.8);
+    z-index: 1200;
+}
+
+.modal {
+    max-width: calc(70vw - 48px);
+    box-shadow: rgba(12, 36, 65, 0.3) 0px 0px 0px 3px;
+    /* cursor: zoom-out; */
+}
+
+img {
+    width: 860px;
+}

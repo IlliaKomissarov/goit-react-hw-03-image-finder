@@ -1,0 +1,51 @@
+.searchbar {
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    color: #fff;
+    background-color: royalblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: box-shadow 2000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.searchbar:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.input {
+    height: 30px;
+    padding-left: 10px;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.buttonIcon {
+    margin: 0 5px 0;
+    padding: 7px;
+    background-color: royalblue;
+    border: 0;
+    border-radius: 30%;
+    box-shadow: 0;
+    transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.buttonIcon:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+}

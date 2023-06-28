@@ -2,13 +2,17 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goitacademy.github.io/react-homework-template/",
+  "homepage": "https://illiakomissarov.github.io/goit-react-hw-03-image-finder/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.2",
+    "basiclightbox": "^5.0.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-icons": "^4.7.1",
+    "react-loader-spinner": "^5.3.4",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.3"
   },
